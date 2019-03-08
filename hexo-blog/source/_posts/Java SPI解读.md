@@ -6,15 +6,15 @@ tags: [源码]
 # Java SPI解读
 
 ## SPI概念
-Service Provider Interface，用于扩展机制应用,有很多的SPI扩展机制应用的实例，比如common-logging，JDBC等等,并且dubbo基于jdk的SPI机制，实现了dubbo自己的SPI
+Service Provider Interface，用于扩展机制应用,有很多的SPI扩展机制应用的实例，比如common-logging，JDBC等等,并且dubbo基于jdk的SPI机制，实现了dubbo自己的SPI。
 
+
+## 例子代码
 
 
 <!-- more -->
 
 
-
-## 例子代码
 ### 接口
 /src/main/java/com.wuj.demo.ICar
 
