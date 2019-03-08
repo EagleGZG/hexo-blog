@@ -8,7 +8,9 @@ tags: [源码]
 ## SPI概念
 Service Provider Interface，用于扩展机制应用,有很多的SPI扩展机制应用的实例，比如common-logging，JDBC等等,并且dubbo基于jdk的SPI机制，实现了dubbo自己的SPI
 
+
 <!-- more -->
+
 
 ## 例子代码
 ### 接口
