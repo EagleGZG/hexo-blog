@@ -9,7 +9,9 @@ tags: [源码]
 Service Provider Interface，用于扩展机制应用,有很多的SPI扩展机制应用的实例，比如common-logging，JDBC等等,并且dubbo基于jdk的SPI机制，实现了dubbo自己的SPI
 
 
+
 <!-- more -->
+
 
 
 ## 例子代码
@@ -142,6 +144,7 @@ private ServiceLoader(Class<S> svc, ClassLoader cl) {
 1. 使用指定的类加载器和服务创建服务加载器。
 2. 如果没有指定类加载器，使用系统类加载器，就是应用类加载器。
 3. 此时，安全管理器没有被设置，所以获取到的acc为null
+
 ### reload 方法
 
 ````java
